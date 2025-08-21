@@ -22,14 +22,14 @@ It allows customers to submit issues, automatically generates a **Ticket ID**, a
 
 
 ## **Project Structure** customer-support-ticketing/ 
-├── README.md # Project documentation 
-├── flowchart.png # Workflow diagram 
-├── apps-script/ 
-│ └── Code.gs # Google Apps Script code 
-├── screenshots/ 
-│ ├── form.png # Google Form screenshot 
-│ └── sheet.png # Google Sheet screenshot 
-└── data/ 
+├── README.md # Project documentation
+├── flowchart.png # Workflow diagram
+├── apps-script/
+│ └── Code.gs # Google Apps Script code
+├── screenshots/
+│ ├── form.png # Google Form screenshot
+│ └── sheet.png # Google Sheet screenshot
+└── data/
 └── Tickets.xlsx # Sample exported Google Sheet
 
 
