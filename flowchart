@@ -1,0 +1,18 @@
+Client submits issue
+          │
+          ▼
+    Google Form
+          │
+          ▼
+Linked Google Sheet ("Tickets")
+          │
+  ┌───────┴─────────┐
+  │                 │
+  ▼                 ▼
+Generate Ticket ID  Send Email to Client
+  │                 │
+  ▼                 ▼
+Update Sheet Status Send Email to Support Team
+          │
+          ▼
+Support Team Updates Status (Open/In Progress/Resolved)
