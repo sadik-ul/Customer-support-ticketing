@@ -6,7 +6,7 @@ Google Form + Sheet + Apps Script ticketing system
 A simple **helpdesk/ticketing system** built using **Google Forms**, **Google Sheets**, and **Google Apps Script**.  
 It allows customers to submit issues, automatically generates a **Ticket ID**, and sends **email notifications** to both the client and support team.  
 
----
+
 
 ## 🚀 Features
 - Submit support requests via Google Form.
@@ -20,7 +20,17 @@ It allows customers to submit issues, automatically generates a **Ticket ID**, a
 - Email notifications to client + support team.
 - Status can be updated directly from Google Sheets.
 
-## **Project Structure** customer-support-ticketing/ ├── README.md # Project documentation ├── flowchart.png # Workflow diagram ├── apps-script/ │ └── Code.gs # Google Apps Script code ├── screenshots/ │ ├── form.png # Google Form screenshot │ └── sheet.png # Google Sheet screenshot └── data/ └── Tickets.xlsx # Sample exported Google Sheet
+
+## **Project Structure** customer-support-ticketing/ 
+├── README.md # Project documentation 
+├── flowchart.png # Workflow diagram 
+├── apps-script/ 
+│ └── Code.gs # Google Apps Script code 
+├── screenshots/ 
+│ ├── form.png # Google Form screenshot 
+│ └── sheet.png # Google Sheet screenshot 
+└── data/ 
+└── Tickets.xlsx # Sample exported Google Sheet
 
 
 
@@ -35,7 +45,10 @@ It allows customers to submit issues, automatically generates a **Ticket ID**, a
 - `demo-form.png` → Example of customer support form  
 - `demo-sheet.png` → Example of ticket tracking sheet  
 
-## **Usage Example** | Name | Email | Issue | Ticket ID | Status | |------------|-----------------|-----------------|-----------|--------| | Test User | your@email.com | This is a test. | 001 | Open |
+## **Usage Example** 
+| Name | Email | Issue | Ticket ID | Status | 
+|------------|-----------------|-----------------|-----------|--------| 
+| Test User | your@email.com | This is a test. | 001 | Open |
 
 
 
@@ -97,4 +110,11 @@ function onFormSubmit(e) {
 }
 
 
-## **Future Improvements** - Add priority levels for tickets - Attach files/screenshots with issues - Dashboard for support team analytics - Integration with Slack or other messaging platforms --- ## **License** This project is open-source under the [MIT License](LICENSE).
+## **Future Improvements**
+- Add priority levels for tickets
+- Attach files/screenshots with issues
+- Dashboard for support team analytics
+- Integration with Slack or other messaging platforms
+
+
+## **License** This project is open-source under the [MIT License](LICENSE).
