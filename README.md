@@ -20,7 +20,9 @@ It allows customers to submit issues, automatically generates a **Ticket ID**, a
 - Email notifications to client + support team.
 - Status can be updated directly from Google Sheets.
 
----
+## **Project Structure** customer-support-ticketing/ ├── README.md # Project documentation ├── flowchart.png # Workflow diagram ├── apps-script/ │ └── Code.gs # Google Apps Script code ├── screenshots/ │ ├── form.png # Google Form screenshot │ └── sheet.png # Google Sheet screenshot └── data/ └── Tickets.xlsx # Sample exported Google Sheet
+
+
 
 ## 🛠️ Tools Used
 - **Google Forms** – collect client issues  
@@ -33,7 +35,9 @@ It allows customers to submit issues, automatically generates a **Ticket ID**, a
 - `demo-form.png` → Example of customer support form  
 - `demo-sheet.png` → Example of ticket tracking sheet  
 
----
+## **Usage Example** | Name | Email | Issue | Ticket ID | Status | |------------|-----------------|-----------------|-----------|--------| | Test User | your@email.com | This is a test. | 001 | Open |
+
+
 
 ## ⚡ Setup Instructions
 1. Create a **Google Form** with fields:
@@ -92,3 +96,5 @@ function onFormSubmit(e) {
   });
 }
 
+
+## **Future Improvements** - Add priority levels for tickets - Attach files/screenshots with issues - Dashboard for support team analytics - Integration with Slack or other messaging platforms --- ## **License** This project is open-source under the [MIT License](LICENSE).
